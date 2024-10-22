@@ -1,0 +1,157 @@
+$date
+  Fri Jul 12 11:33:48 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module test_bench $end
+$var reg 3 ! feu0[2:0] $end
+$var reg 3 " feu1[2:0] $end
+$var reg 4 # btns[3:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$scope module uut $end
+$var reg 1 & clk $end
+$var reg 1 ' rst $end
+$var reg 4 ( i_btns[3:0] $end
+$var reg 3 ) o_feu0[2:0] $end
+$var reg 3 * o_feu1[2:0] $end
+$comment etat is not handled $end
+$var reg 1 + hard_reset $end
+$var reg 4 , btns_r[3:0] $end
+$var reg 4 - transition_btns[3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b000 !
+b000 "
+b0000 #
+0$
+1%
+0&
+1'
+b0000 (
+b000 )
+b000 *
+0+
+b0000 ,
+b0000 -
+#4000000
+1$
+1&
+#8000000
+0$
+0&
+#12000000
+1$
+1&
+#16000000
+b0001 #
+0$
+0%
+0&
+0'
+b0001 (
+#20000000
+1$
+1&
+b0001 ,
+b0001 -
+#24000000
+b0000 #
+0$
+0&
+b0000 (
+#28000000
+b111 !
+b010 "
+1$
+1&
+b111 )
+b010 *
+b0000 ,
+b0000 -
+#32000000
+b0001 #
+0$
+0&
+b0001 (
+#36000000
+1$
+1&
+b0001 ,
+b0001 -
+#40000000
+b0000 #
+0$
+0&
+b0000 (
+#44000000
+b100 !
+b111 "
+1$
+1&
+b100 )
+b111 *
+b0000 ,
+b0000 -
+#48000000
+b0001 #
+0$
+0&
+b0001 (
+#52000000
+1$
+1&
+b0001 ,
+b0001 -
+#56000000
+b0000 #
+0$
+0&
+b0000 (
+#60000000
+b010 !
+b100 "
+1$
+1&
+b010 )
+b100 *
+b0000 ,
+b0000 -
+#64000000
+b0001 #
+0$
+0&
+b0001 (
+#68000000
+1$
+1&
+b0001 ,
+b0001 -
+#72000000
+b0000 #
+0$
+0&
+b0000 (
+#76000000
+b111 !
+b010 "
+1$
+1&
+b111 )
+b010 *
+b0000 ,
+b0000 -
